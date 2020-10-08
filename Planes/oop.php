@@ -5,9 +5,19 @@
  */
 abstract class Planes
 {
-    abstract public function Takeoff();
+    /**
+     * @return mixed
+     */
+    public function Takeoff()
+    {
+    }
 
-    abstract public function Landing();
+    /**
+     * @return mixed
+     */
+    public function Landing()
+    {
+    }
 }
 
 /**
@@ -15,16 +25,6 @@ abstract class Planes
  */
 class MIG extends Planes
 {
-    public function Takeoff()
-    {
-        // TODO: Implement Takeoff() method.
-    }
-
-    public function Landing()
-    {
-        // TODO: Implement Landing() method.
-    }
-
     public function Attack()
     {
     }
@@ -35,13 +35,4 @@ class MIG extends Planes
  */
 class TU154 extends Planes
 {
-    public function Takeoff()
-    {
-        // TODO: Implement Takeoff() method.
-    }
-
-    public function Landing()
-    {
-        // TODO: Implement Landing() method.
-    }
 }
